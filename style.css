@@ -1,17 +1,40 @@
-li {display: block;
-color: gray;}
-p{background-color: azure;
-color: white;
-padding: 100px 50px 200px;
-border: 20px dashed gold;
-margin: 200px;
-display: flex;
-flex-direction: column-reverse;
-align-items: center;
+li {
+    display: block;
+    color: white;
 }
-.li-highlighted {background-color: grey;
-color: white;
+
+header {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: white;
+    border: 15px groove darkolivegreen;
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
-Jobstation {color: black;
-background-color: darkgray;
-font-weight: 600;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1,5;
+    background-color: lightgray;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    color: coral;
+    text-decoration: underline dotted darkgreen;
+}
+
+.li-highlighted {
+    color: rgb(131, 86, 86);
+    text-decoration: underline darkgreen;
+    text-decoration-thickness: 2 px;
+}
